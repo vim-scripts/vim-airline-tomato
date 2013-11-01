@@ -1,0 +1,24 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4756
+
+This is vim-airline extension to display Pomodoro Technique
+
+Required
+Airline: This is a extension of airline (like powerline, but more fast and KISS)
+powerline-font: if you use chinese font, you may need install powerline font
+Configuration
+` If you want to change the working time:
+
+let g:tomato#interval = 60 * 60
+< If you wat to change rest time:
+
+let g:tomato#rest_time = 20 * 60
+< If you wat to change language(english or chinese):
+
+let g:tomato#lang = 'chinese'
+If you wat to change working text:
+
+let g:tomato#remind = ":("
+If you wat to change rest text:
+
+let g:tomato#remind = ":)"
+
